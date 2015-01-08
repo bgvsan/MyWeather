@@ -1,0 +1,120 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Wheather.View.WiewCity"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dataConverter="clr-namespace:Wheather.Converter"
+    
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+
+    <phone:PhoneApplicationPage.Resources>
+        <dataConverter:CodToImagePathConverter x:Key="CodToImagePathConverter" />
+        <dataConverter:CodToSmallImagePathConverter x:Key="CodToSmallImagePathConverter" />
+        <dataConverter:KelvintToCelsius x:Key="KelvintToCelsius" />
+        <dataConverter:TimeStampToHourMinutesString x:Key="TimeStampToHourString" />
+    </phone:PhoneApplicationPage.Resources>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="False">
+            <!--<shell:ApplicationBarIconButton x:Name="BtnSavedCities" IconUri="/Resources/Images/Icon/globe.png" Text="Cities" 
+                                            Click="BtnSavedCities_Click"/>-->
+            <shell:ApplicationBarIconButton x:Name="BtnSearchCity" IconUri="/Resources/Images/Icon/feature.search.png" Text="Search" 
+                                            Click="BtnSearchCity_Click"/>
+            <shell:ApplicationBarIconButton x:Name="BtnGpsCoord" IconUri="/Resources/Images/Icon/map.centerme.png" Text="Gps"
+                                            Click="BtnGpsCoord_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Stretch="UniformToFill" Source="{Binding Weather, Converter={StaticResource CodToImagePathConverter}, ConverterParameter=Weather, TargetNullValue='/Resources/Images/Condition/no-foto.png'}"></Image>
+
+        <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Wheater" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="City" Text="{Binding Name}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" VerticalAlignment="Bottom" >
+            <Grid x:Name="GridCityMainValues" Background="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border Background="#69111111"  
+                        Grid.Column="2" Grid.Row="0"
+                        VerticalAlignment="Top"
+                        CornerRadius="5,5,5,5" BorderThickness="2,2,2,2"
+                        Margin="-30,15,15,0"
+                        
+                        >
+                    <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+                        <Image Height="50" Width="50" Opacity="1" HorizontalAlignment="Left" Source="{Binding Weather, Converter={StaticResource CodToSmallImagePathConverter}, ConverterParameter=Weather, TargetNullValue='/Resources/Images/Condition/no-foto.png'}"></Image>
+                        <TextBlock HorizontalAlignment="Right" Style="{StaticResource textHuge }" x:Name="Detail_temp" Text="{Binding Main.temp,Converter={StaticResource KelvintToCelsius}, Mode=OneWay , TargetNullValue=--, FallbackValue=--}" />
+                        <TextBlock HorizontalAlignment="Right"  Style="{StaticResource textHuge}" x:Name="value" Text="&#176;" />
+                    </StackPanel >
+                </Border>
+                <Border Background="#69111111"
+                        Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" CornerRadius="5,5,5,5" BorderThickness="2,2,2,2" Grid.RowSpan="2"
+                        Margin="10,10,15,10">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Vertical" Margin="15">
+                                <TextBlock  Style="{StaticResource textBig}" x:Name="lbl_Detail_Humidity"
+                            Text="Humidity"  HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock  Style="{StaticResource textBig}" x:Name="Detail_humidity" Text="{Binding Main.humidity, Mode=OneWay, TargetNullValue=--, FallbackValue=--}" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+                                    <TextBlock Style="{StaticResource textBig}" x:Name="valueee" Text="&#37;" HorizontalAlignment="Left" />
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Orientation="Vertical" Margin="15">
+                                <TextBlock  Style="{StaticResource textBig}" x:Name="lbl_Detail_Pressure"
+                            Text="Pressure" />
+
+                                <TextBlock  HorizontalAlignment="Center" Style="{StaticResource textBig}" x:Name="Detail_pressure"
+                            Grid.Column="2" Grid.Row="2" 
+                            Text="{Binding Main.pressure, Mode=OneWay, TargetNullValue=--, FallbackValue=--}" 
+                            VerticalAlignment="Bottom" />
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="15,0,0,0">
+                                <TextBlock  Text="Sunrise:"></TextBlock>
+                                <TextBlock  x:Name="lbl_sunsset" Text="{Binding Sys.sunrise, Converter={StaticResource TimeStampToHourString},TargetNullValue=--, FallbackValue=--,Mode=OneWay}" 
+                                        HorizontalAlignment="Left" 
+                                        Margin="10,0,10,10"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="15,0,0,0">
+                                <TextBlock  Text="Sunset:"></TextBlock>
+                                <TextBlock  x:Name="lbl_sunset" Text="{Binding Sys.sunset, Converter={StaticResource TimeStampToHourString},TargetNullValue=--, FallbackValue=--, Mode=OneWay}"
+                                         Margin="10,0,10,10"  />
+                            </StackPanel>
+                           
+                        </StackPanel>
+                    </StackPanel>
+
+                </Border>
+
+            </Grid>
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

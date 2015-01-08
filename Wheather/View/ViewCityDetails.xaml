@@ -1,0 +1,79 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Wheather.View.ViewCityDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
+        
+
+            <toolkit:ExpanderView HorizontalAlignment="Stretch" IsExpanded="True" >
+                <toolkit:ExpanderView.Items>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="200"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="{Binding Weather, Converter={StaticResource CodToImagePathConverter}, ConverterParameter=Weather, TargetNullValue='/Resources/Images/Condition/no-foto.png'}"></Image>
+                        
+                            <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+
+
+                                <TextBlock x:Name="lbl_Detail_Temp" Text="Temperature: " Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+                                <TextBlock x:Name="Detail_temp" Text="{Binding Main.temp, Mode=OneWay}" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+
+                                <TextBlock x:Name="lbl_Detail_Humidity" Text="Humidity: " Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+                                <TextBlock x:Name="Detail_humidity" Text="{Binding Main.humidity, Mode=OneWay}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+
+                                <TextBlock x:Name="lbl_Detail_Pressure" Text="Pressure: " Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" />
+                                <TextBlock x:Name="Detail_pressure" Text="{Binding Main.pressure, Mode=OneWay}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+                            </Grid>
+
+                    </Grid>
+                </toolkit:ExpanderView.Items>
+                
+                <toolkit:ExpanderView.Expander>
+                <Border BorderBrush="Aquamarine" BorderThickness="3"  HorizontalAlignment="Stretch">
+                    <TextBlock Height="70" Width="400" x:Name="lbl_Detail_Header" Text="London" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Stretch" />
+                </Border>
+                </toolkit:ExpanderView.Expander>
+
+            </toolkit:ExpanderView>
+
+
+        <!--ContentPanel - inserire ulteriore contenuto qui-->
+        
+    </Grid>
+
+</phone:PhoneApplicationPage>

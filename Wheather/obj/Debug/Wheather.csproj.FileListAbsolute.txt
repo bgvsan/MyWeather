@@ -1,0 +1,285 @@
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Wheather.dll
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Wheather.pdb
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\AppManifest.xaml
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Wheather_Debug_AnyCPU.xap
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\App.g.cs
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\MainPage.g.cs
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.g.resources
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.Resources.AppResources.resources
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.csproj.GenerateResource.Cache
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.dll
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.pdb
+c:\users\diego\documents\visual studio 2013\Projects\Wheather\Wheather\obj\Debug\XapCacheFile.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Diego\documents\visual studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Wheather.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Wheather.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\AppManifest.xaml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Wheather_Debug_AnyCPU.xap
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\App.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\MainPage.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\View\ViewCityDetails.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\View\ViewCityList.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\Wheather.g.resources
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\Wheather.Resources.AppResources.resources
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\Wheather.csproj.GenerateResource.Cache
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\Wheather.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\Wheather.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\XapCacheFile.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\obj\Debug\Wheather.csprojResolveAssemblyReference.cache
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Desktop\Wheather\Wheather\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\View\ViewCityDetails.g.cs
+C:\Users\Diego\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\View\ViewCityList.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Wheather.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Wheather.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\AppManifest.xaml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Wheather_Debug_AnyCPU.xap
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\App.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\MainPage.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\View\ViewCityDetails.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\View\ViewCityList.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.g.resources
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.Resources.AppResources.resources
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.csproj.GenerateResource.Cache
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.dll
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.pdb
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\XapCacheFile.xml
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\View\ViewSelectCity.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\View\ViewCity.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\View\ViewSearch.g.cs
+C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\Wheather\Wheather\obj\Debug\Wheather.csprojResolveAssemblyReference.cache
