@@ -32,7 +32,7 @@ namespace Wheather.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private ObservableCollection<ModelSearch.List> _SearchGPSList = 
+        private ObservableCollection<ModelSearch.List> _SearchGPSList =
             new ObservableCollection<ModelSearch.List>();
         public ObservableCollection<ModelSearch.List> GetGPSCitiesList
         {
@@ -58,6 +58,7 @@ namespace Wheather.ViewModels
             }
         }
 
+        WhConnection connection;
 
         public ViewModelSearch()
         {
@@ -67,33 +68,30 @@ namespace Wheather.ViewModels
         public async Task Search(string city)
         {
             this.GetCitiesList.Clear();
-            var connection = new WhConnection();
-
-            try
+            connection = new WhConnection();
+            var result = await connection.GetWheather(WhConnection.FormatType.Json, city);
+            //Check if city exist!
+            var resultCity = JsonConvert.DeserializeObject<City>(result);
+            if (resultCity.Cod == "404")
             {
-                
-                var result = await connection.GetWheather(WhConnection.FormatType.Json, city);
-                //Check if city exist!
-                var resultCity = JsonConvert.DeserializeObject<City>(result);
-                if (resultCity.Cod == "404")
-                {
-                    //City not found
-                    MessageBox.Show("City not Found :" + city);
-                }
-                else
-                {
-                    GetCitiesList.Add(resultCity);
-                }
+                //City not found
+                MessageBox.Show("City not Found :" + city);
             }
-
-            catch (OperationCanceledException)
+            else
             {
-                MessageBox.Show("Error Retrive message!");
+                GetCitiesList.Add(resultCity);
             }
-
         }
 
-        
+
+
+        public void Abort()
+        {
+            if (connection != null)
+                connection.AbortRequest();
+        }
+
+
 
         /// <summary>
         /// Get The GPS coord and call API to update cityView
@@ -105,22 +103,22 @@ namespace Wheather.ViewModels
             if (geo != null)
             {
                 var connection = new WhConnection();
-                try
-                {
-                    GetGPSCitiesList.Clear();
-                    var result = await connection.GetWheather(WhConnection.FormatType.Json, geo, 5);
+                //try
+                //{
+                GetGPSCitiesList.Clear();
+                var result = await connection.GetWheather(WhConnection.FormatType.Json, geo, 5);
 
-                    System.Diagnostics.Debug.WriteLine(result);
-                    var re = (JsonConvert.DeserializeObject<ModelSearch>(result));
+                System.Diagnostics.Debug.WriteLine(result);
+                var re = (JsonConvert.DeserializeObject<ModelSearch>(result));
 
-                    GetGPSCitiesList = re.list;
+                GetGPSCitiesList = re.list;
 
 
-                }
-                catch (OperationCanceledException)
-                {
-                    MessageBox.Show("Error Retrive Cities from GPS!");
-                }
+                //}
+                //catch (OperationCanceledException)
+                //{
+                //    MessageBox.Show("Error Retrive Cities from GPS!");
+                //}
             }
 
         }

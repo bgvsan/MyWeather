@@ -13,10 +13,12 @@ using Wheather.ViewModels;
 using System.Device.Location;
 using Windows.Devices.Geolocation;
 
+
 namespace Wheather.Library
 {
     internal class WhConnection
     {
+
         public enum FormatType
         {
             Json,
@@ -27,6 +29,11 @@ namespace Wheather.Library
 
         private const string _api_connection_string = "http://api.openweathermap.org/data/2.5/weather";
         private const string _api_connection_string_gps = "http://api.openweathermap.org/data/2.5/find";
+
+
+        public HttpWebRequest webRequest;
+
+
 
         private string GetConnectionUrl(FormatType format,bool gps=false)
         {
@@ -48,7 +55,13 @@ namespace Wheather.Library
             return connectionString;
         }
 
-
+        public void AbortRequest()
+        {
+            if (webRequest != null)
+            {
+                webRequest.Abort();
+            }
+        }
 
         public async Task<string> GetWheather(FormatType format, string city)
         {
@@ -56,9 +69,9 @@ namespace Wheather.Library
             {
                 var connectionString = GetConnectionUrl(format) + "&q=" + city;
                 var url = new Uri(connectionString);
-                var webRequest = (HttpWebRequest)WebRequest.Create(url);
+                webRequest = (HttpWebRequest)WebRequest.Create(url);
                 //block the method for the response.
-
+               
                 return await webRequest.GetResponseAsync().ContinueWith<String>(t =>
                 {
 
@@ -135,7 +148,7 @@ namespace Wheather.Library
             webRequest.BeginGetResponse(new AsyncCallback(GetResponseCallback), webRequest);
         }
 
-        void GetResponseCallback(IAsyncResult result)
+        public void GetResponseCallback(IAsyncResult result)
         {
             var request = result.AsyncState as HttpWebRequest;
             if (request != null)

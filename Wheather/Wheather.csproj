@@ -102,14 +102,10 @@
     <Compile Include="Library\WhConnection.cs" />
     <Compile Include="Model\ModelCityList.cs" />
     <Compile Include="Model\ModelSearch.cs" />
-    <Compile Include="Model\ObservableCollection.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="ViewModels\MainPageViewModel.cs" />
     <Compile Include="ViewModels\ViewModelCity.cs" />
     <Compile Include="ViewModels\ViewModelSearch.cs" />
-    <Compile Include="ViewModels\ViewModelSelectCity.cs" />
-    <Compile Include="ViewModels\ViewModelCityList.cs" />
-    <Compile Include="ViewModels\WhObj.cs" />
+    <Compile Include="Library\WhObj.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -122,15 +118,6 @@
     </Compile>
     <Compile Include="View\ViewSearch.xaml.cs">
       <DependentUpon>ViewSearch.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\ViewSelectCity.xaml.cs">
-      <DependentUpon>ViewSelectCity.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\ViewCityDetails.xaml.cs">
-      <DependentUpon>ViewCityDetails.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\ViewCityList.xaml.cs">
-      <DependentUpon>ViewCityList.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ViewCity.xaml.cs">
       <DependentUpon>ViewCity.xaml</DependentUpon>
@@ -146,18 +133,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ViewSearch.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\ViewSelectCity.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\ViewCityDetails.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\ViewCityList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -234,6 +209,7 @@
     <Content Include="Resources\Images\Icon\globe.png" />
     <Content Include="Resources\Images\Icon\manage.png" />
     <Content Include="Resources\Images\Icon\map.centerme.png" />
+    <Content Include="Resources\Images\Spinner.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />

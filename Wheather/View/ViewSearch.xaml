@@ -17,13 +17,44 @@
             <shell:ApplicationBarIconButton IconUri="/Resources/Images/Icon/feature.search.png" Text="Search" Click="ApplicationBarIconButton_Click" />
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
+
+    <!--<phone:PhoneApplicationPage.Resources>
+        <Storyboard x:Name="SpinningAnimation">
+            <DoubleAnimation AutoReverse="False"
+                       Duration="0:0:5"
+                       From="0"
+                       RepeatBehavior="Forever"
+                       Storyboard.TargetName="SpinningRotateTransform"
+                       Storyboard.TargetProperty="Angle"
+                       To="360" />
+        </Storyboard>
+    </phone:PhoneApplicationPage.Resources>-->
     <!--LayoutRoot è la griglia radice in cui viene inserito tutto il contenuto della pagina-->
+    
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
+        <Grid x:Name="GridProgressBar" Grid.Row="0" Grid.RowSpan="2" Background="Black" Opacity="0.9" Visibility="Visible" >
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ProgressBar x:Name="ProgressBar" IsIndeterminate="True" Height="25" Width="200"></ProgressBar>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center"  Text="Getting Info.."></TextBlock>
+            </StackPanel>
+        </Grid>
+        <!--<Grid x:Name="Waitgrid" Grid.Row="0" Visibility="Collapsed"  Grid.RowSpan="2" Background="Black" Opacity="0.6">
+            <Ellipse Fill="{StaticResource PhoneForegroundBrush}"  Height="50" Width="50" Canvas.ZIndex="100" Margin="10,10">
+                <Ellipse.OpacityMask>
+                    <ImageBrush ImageSource="/Resources/Images/Spinner.png" Stretch="Uniform"/>
+                </Ellipse.OpacityMask>
+                <Ellipse.RenderTransform>
+                    <RotateTransform x:Name="SpinningRotateTransform"
+                CenterX="25"
+                CenterY="25" />
+                </Ellipse.RenderTransform>
+            </Ellipse>
+        </Grid>-->
+        
         <!--TitlePanel contiene il nome dell'applicazione e il titolo della pagina-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="Weather" Style="{StaticResource PhoneTextNormalStyle}"/>

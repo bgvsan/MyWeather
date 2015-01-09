@@ -5,16 +5,9 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wheather", "Wheather\Wheather.csproj", "{CFA0AB09-4EF1-40C1-9E5A-C0B402C98A0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheatherTests", "WheatherTests\WheatherTests.csproj", "{A6296843-48E3-45C3-AB4D-BC779C72D125}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://diegosantinelli.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Wheather\\Wheather.csproj
-		SccProjectName1 = Wheather
-		SccLocalPath1 = Wheather
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
@@ -42,6 +35,14 @@ Global
 		{CFA0AB09-4EF1-40C1-9E5A-C0B402C98A0D}.Release|x86.ActiveCfg = Release|x86
 		{CFA0AB09-4EF1-40C1-9E5A-C0B402C98A0D}.Release|x86.Build.0 = Release|x86
 		{CFA0AB09-4EF1-40C1-9E5A-C0B402C98A0D}.Release|x86.Deploy.0 = Release|x86
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A6296843-48E3-45C3-AB4D-BC779C72D125}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

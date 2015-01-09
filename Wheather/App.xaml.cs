@@ -13,23 +13,7 @@ namespace Wheather
 {
     public partial class App : Application
     {
-        private static MainPageViewModel _mainPageViewModel { get; set; }
 
-        /// <summary>
-        /// Oggetto ViewModel statico utilizzato dalle visualizzazioni con cui eseguire l'associazione.
-        /// </summary>
-        /// <returns>Oggetto MainViewModel.</returns>
-        public static MainPageViewModel MainPageViewModel
-        {
-            get
-            {
-                // Ritardare la creazione del modello di visualizzazione finché necessario
-                if (_mainPageViewModel == null)
-                    _mainPageViewModel = new MainPageViewModel();
-
-                return _mainPageViewModel;
-            }
-        }
 
         /// <summary>
         /// Offre facile accesso al frame radice dell'applicazione Windows Phone.

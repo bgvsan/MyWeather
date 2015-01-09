@@ -19,8 +19,6 @@ namespace Wheather
         public MainPage()
         {
             InitializeComponent();
-            this.DataContext = App.MainPageViewModel;
-           
            // NavigationService.Navigate(new Uri("/SecondPage.xaml", UriKind.Relative));
         }
 

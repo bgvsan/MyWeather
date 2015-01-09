@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using System.Windows.Input;
 using Wheather.ViewModels;
+using System.Diagnostics;
 
 namespace Wheather.View
 {
@@ -29,7 +30,7 @@ namespace Wheather.View
 
         }
 
-        void VMSearch_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        public void VMSearch_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             this.LayoutRoot.DataContext = VMSearch.GetGPSCitiesList;
         }
@@ -40,6 +41,7 @@ namespace Wheather.View
             parameterValue = NavigationContext.QueryString["parameter"];
             if (!parameterValue.Equals("gps"))
             {
+
                 this.LayoutRoot.DataContext = VMSearch.GetCitiesList;
                 this.ApplicationBar.IsVisible = true;
                 this.textSearch.Visibility = System.Windows.Visibility.Visible;
@@ -47,16 +49,32 @@ namespace Wheather.View
 
             else
             {
-                
-                this.ApplicationBar.IsVisible = false;
-                this.textSearch.Visibility = System.Windows.Visibility.Collapsed;
-                this.LayoutRoot.DataContext = VMSearch.GetGPSCitiesList;
 
-                await VMSearch.UpdateCitiesFromGPS();
+                getGPSCity();
 
-                
             }
 
+        }
+
+        private async void getGPSCity()
+        {
+
+            this.ApplicationBar.IsVisible = false;
+            this.textSearch.Visibility = System.Windows.Visibility.Collapsed;
+            this.LayoutRoot.DataContext = VMSearch.GetGPSCitiesList;
+            try
+            {
+                Spinning();
+                await VMSearch.UpdateCitiesFromGPS();
+
+            }
+            catch (OperationCanceledException ex)
+            {
+                Debug.WriteLine("Operation canceled from retriving gps");
+                MessageBox.Show("No GPS Retrive");
+                SpinningStop();
+            }
+            SpinningStop();
         }
 
         private void textSearch_GotFocus(object sender, RoutedEventArgs e)
@@ -78,6 +96,7 @@ namespace Wheather.View
             // if the enter key is pressed
             if (e.Key == Key.Enter)
             {
+                Spinning();
                 // focus the page in order to remove focus from the text box
                 // and hide the soft keyboard
                 this.Focus();
@@ -99,13 +118,54 @@ namespace Wheather.View
 
             if (parameterValue.Equals("gps"))
             {
-                //Send request to download cities parameter
-                await VMSearch.Search(i);
+                try
+                {
+                    //Send request to download cities parameter
+                    await VMSearch.Search(i);
+
+                }
+                catch (Exception ex)
+                {
+                    SpinningStop();
+                    Debug.WriteLine("Error in search view  " + ex);
+                }
+
             }
+            try
+            {
 
-            r.GetCurrentCity = VMSearch.GetCitiesList.First();
-            NavigationService.Navigate(new Uri("/View/ViewCity.xaml", UriKind.Relative));
+                r.GetCurrentCity = VMSearch.GetCitiesList.First();
+                NavigationService.Navigate(new Uri("/View/ViewCity.xaml", UriKind.Relative));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error retrive message");
+                Debug.WriteLine("Error in list city");
+            }
+            SpinningStop();
 
+
+        }
+
+
+        private void Spinning()
+        {
+            //Write here code for displaying till the result not come from Web service.
+            GridProgressBar.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void SpinningStop()
+        {
+            GridProgressBar.Visibility = System.Windows.Visibility.Collapsed;
+        }
+
+
+
+        protected override void OnBackKeyPress(System.ComponentModel.CancelEventArgs e)
+        {
+            VMSearch.Abort();
+            SpinningStop();
+            base.OnBackKeyPress(e);
         }
 
     }
