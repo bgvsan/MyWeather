@@ -49,9 +49,7 @@ namespace Wheather.View
 
             else
             {
-
                 getGPSCity();
-
             }
 
         }
@@ -62,11 +60,11 @@ namespace Wheather.View
             this.ApplicationBar.IsVisible = false;
             this.textSearch.Visibility = System.Windows.Visibility.Collapsed;
             this.LayoutRoot.DataContext = VMSearch.GetGPSCitiesList;
+            Spinning();
+
             try
             {
-                Spinning();
                 await VMSearch.UpdateCitiesFromGPS();
-
             }
             catch (OperationCanceledException ex)
             {
@@ -82,10 +80,6 @@ namespace Wheather.View
             this.textSearch.Text = "";
         }
 
-
-
-
-
         /// <summary>
         /// Hide soft Keyboard
         /// </summary>
@@ -96,17 +90,28 @@ namespace Wheather.View
             // if the enter key is pressed
             if (e.Key == Key.Enter)
             {
-                Spinning();
                 // focus the page in order to remove focus from the text box
                 // and hide the soft keyboard
                 this.Focus();
             }
         }
 
-        private void ApplicationBarIconButton_Click(object sender, EventArgs e)
+        private async void ApplicationBarIconButton_Click(object sender, EventArgs e)
         {
             //Search city.
-            VMSearch.Search(this.textSearch.Text);
+            Spinning();
+            try
+            {
+                await VMSearch.Search(this.textSearch.Text);
+            }
+            catch(Exception ex)
+            {
+                Debug.WriteLine("Error Search city " + ex);
+                MessageBox.Show("Error retrive city");
+                SpinningStop();
+            }
+            SpinningStop();
+
             //Hide keyboard
             this.Focus();
         }
@@ -122,29 +127,29 @@ namespace Wheather.View
                 {
                     //Send request to download cities parameter
                     await VMSearch.Search(i);
-
                 }
                 catch (Exception ex)
                 {
-                    SpinningStop();
                     Debug.WriteLine("Error in search view  " + ex);
+                    SpinningStop();
                 }
-
             }
-            try
+            else
             {
-
-                r.GetCurrentCity = VMSearch.GetCitiesList.First();
-                NavigationService.Navigate(new Uri("/View/ViewCity.xaml", UriKind.Relative));
+                try
+                {
+                    r.GetCurrentCity = VMSearch.GetCitiesList.First();
+                    NavigationService.Navigate(new Uri("/View/ViewCity.xaml", UriKind.Relative));
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error retrive message");
+                    Debug.WriteLine("Error in list city");
+                    SpinningStop();
+                }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error retrive message");
-                Debug.WriteLine("Error in list city");
-            }
+           
             SpinningStop();
-
-
         }
 
 

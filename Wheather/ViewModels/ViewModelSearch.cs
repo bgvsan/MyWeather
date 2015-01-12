@@ -29,7 +29,6 @@ namespace Wheather.ViewModels
             }
 
         }
-
         public event PropertyChangedEventHandler PropertyChanged;
 
         private ObservableCollection<ModelSearch.List> _SearchGPSList =
