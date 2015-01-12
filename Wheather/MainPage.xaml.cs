@@ -19,28 +19,16 @@ namespace Wheather
         public MainPage()
         {
             InitializeComponent();
-           // NavigationService.Navigate(new Uri("/SecondPage.xaml", UriKind.Relative));
         }
 
         
         // Caricare i dati per gli elementi ViewModel
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            //if (!App.MainPageViewModel.IsDataLoaded)
-            //{
-            //    App.MainPageViewModel.LoadData();
-            //}
-        }
-
-       
-        private async  void ButtonBase_OnClick(object sender, RoutedEventArgs e)
-        {
 
             NavigationService.Navigate(new Uri("/View/ViewCity.xaml", UriKind.Relative));
-           // var upd = new MainPageViewModel();
-           // await upd.UpdateCity();
-           
-           //App.MainPageViewModel.MainCity.name = "culo";
+
         }
+
     }
 }

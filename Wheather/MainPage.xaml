@@ -30,11 +30,9 @@
 
         <!--ContentPanel contiene LongListSelector e LongListSelector ItemTemplate. Inserire ulteriore contenuto qui-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" >
-            <StackPanel>
-                <Button Content="click" Click="ButtonBase_OnClick"></Button>
-            </StackPanel>
-            
-                <!--<phone:LongListSelector x:Name="MainLongListSelector" Margin="0,0,-12,0" ItemsSource="{Binding Items}" SelectionChanged="MainLongListSelector_SelectionChanged">
+            <StackPanel/>
+
+            <!--<phone:LongListSelector x:Name="MainLongListSelector" Margin="0,0,-12,0" ItemsSource="{Binding Items}" SelectionChanged="MainLongListSelector_SelectionChanged">
                 <phone:LongListSelector.ItemTemplate>
                     <DataTemplate>
                       <StackPanel Margin="0,0,0,17">

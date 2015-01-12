@@ -376,4 +376,3 @@ C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\My
 C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\Wheather\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\Wheather\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\Wheather\obj\Debug\XapCacheFile.xml
-C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\Wheather\obj\Debug\Wheather.csprojResolveAssemblyReference.cache

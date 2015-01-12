@@ -1,5 +1,4 @@
 C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\WheatherTests\bin\Debug\WheatherTests.dll
 C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\WheatherTests\bin\Debug\WheatherTests.pdb
-C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\WheatherTests\obj\Debug\WheatherTests.csprojResolveAssemblyReference.cache
 C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\WheatherTests\obj\Debug\WheatherTests.dll
 C:\Users\diego_santinelli.REGIONEMARCHE\Documents\Visual Studio 2013\Projects\MyWeather\WheatherTests\obj\Debug\WheatherTests.pdb
