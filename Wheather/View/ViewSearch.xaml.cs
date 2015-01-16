@@ -120,7 +120,7 @@ namespace Wheather.View
         {
             ViewModelCity r = new ViewModelCity();
             var i = ((TextBlock)(sender)).Text;
-
+            Spinning();
             if (parameterValue.Equals("gps"))
             {
                 try
@@ -128,28 +128,19 @@ namespace Wheather.View
                     //Send request to download cities parameter
                     await VMSearch.Search(i);
                 }
-                catch (Exception ex)
+                catch (CityNotFoundException ex)
                 {
+                    MessageBox.Show("City not Found");
                     Debug.WriteLine("Error in search view  " + ex);
                     SpinningStop();
+                    return;
                 }
+                 
             }
-            else
-            {
-                try
-                {
-                    r.GetCurrentCity = VMSearch.GetCitiesList.First();
-                    NavigationService.Navigate(new Uri("/View/ViewCity.xaml", UriKind.Relative));
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error retrive message");
-                    Debug.WriteLine("Error in list city");
-                    SpinningStop();
-                }
-            }
-           
             SpinningStop();
+            r.GetCurrentCity = VMSearch.GetCitiesList.First();
+            NavigationService.Navigate(new Uri("/View/ViewCity.xaml", UriKind.Relative));
+
         }
 
 

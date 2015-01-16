@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -69,12 +70,12 @@ namespace Wheather.ViewModels
             this.GetCitiesList.Clear();
             connection = new WhConnection();
             var result = await connection.GetWheather(WhConnection.FormatType.Json, city);
+            Debug.WriteLine("City Found : " + result);
             //Check if city exist!
             var resultCity = JsonConvert.DeserializeObject<City>(result);
             if (resultCity.Cod == "404")
             {
-                //City not found
-                MessageBox.Show("City not Found :" + city);
+                throw new CityNotFoundException();
             }
             else
             {

@@ -103,6 +103,7 @@
     <Compile Include="Model\ModelCityList.cs" />
     <Compile Include="Model\ModelSearch.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="ViewModels\CityNotFoundException.cs" />
     <Compile Include="ViewModels\ViewModelCity.cs" />
     <Compile Include="ViewModels\ViewModelSearch.cs" />
     <Compile Include="Library\WhObj.cs" />
